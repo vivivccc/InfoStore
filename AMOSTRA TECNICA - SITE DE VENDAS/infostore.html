@@ -3,26 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InfoStore</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>InfoStore - Categorias</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
-    <header>
-        <h1>InfoStore</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+
+    <!-- Cabeçalho Principal -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Info<span>Store</span></h1>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar produtos...">
+                <button type="button">Buscar</button>
+            </div>
+
+            <nav class="user-nav">
+                <a href="#">Minha Conta</a>
+                <a href="#" class="cart-btn">🛒 Carrinho (0)</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Bem-vindo à InfoStore!</h2>
-        <p>Encontre os melhores produtos de tecnologia aqui.</p>
+
+    <!-- Conteúdo Principal: Grade com 7 Categorias -->
+    <main class="main-content">
+        
+        <section class="categories-section">
+            <h2>Categorias da loja</h2>
+            <p>Explore os produtos navegando pelas categorias abaixo:</p>
+
+            <div class="categories-grid">
+                
+                <!-- Bloco 1 -->
+                <a href="#categoria-1" class="category-card">
+                    <div class="category-icon">⚽</div>
+                    <h3>Futebol</h3>
+                    <p>por Neudson</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 2 -->
+                <a href="#categoria-2" class="category-card">
+                    <div class="category-icon">💪</div>
+                    <h3>Academia</h3>
+                    <p>Por Murilo</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 3 -->
+                <a href="#categoria-3" class="category-card">
+                    <div class="category-icon">🌟</div>
+                    <h3>GEEK</h3>
+                    <p>Por Lavinya</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 4 -->
+                <a href="#categoria-4" class="category-card">
+                    <div class="category-icon">🧸</div>
+                    <h3>Brinquedos</h3>
+                    <p>Por Alice</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 5 -->
+                <a href="#categoria-5" class="category-card">
+                    <div class="category-icon">🏐</div>
+                    <h3>Vôlei</h3>
+                    <p>Por Geraldo</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 6 -->
+                <a href="#categoria-6" class="category-card">
+                    <div class="category-icon">📚</div>
+                    <h3>Literatura</h3>
+                    <p>Por Vinie Victória</p>
+                    <span class="btn-explore">Ver Produtos &rarr;</span>
+                </a>
+
+                <!-- Bloco 7 -->
+                <a href="#categoria-7" class="category-card">
+                    <div class="category-icon">🎮</div>
+                    <h3>Videogames</h3>
+                    <p>Por Elinardy e Luís</p>
+                    <span class="btn-explore">Ver Ofertas &rarr;</span>
+                </a>
+
+            </div>
+        </section>
+
     </main>
-    <footer>
-        <p>&copy; 2026 InfoStore. Todos os direitos reservados.</p>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 InfoStore. Todos os direitos reservados.</p>
+        </div>
     </footer>
+
 </body>
 </html>
