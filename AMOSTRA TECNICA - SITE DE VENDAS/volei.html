@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1>INFOSTORE</h1>
+        <p>Meu hobie preferido!</p>
+    </header>
+
+    <nav class="menu">
+        <a href="paginicial.html">Início</a><br>
+        <a href="academia.html">Academia</a><br>
+        <a href="geek.html">Geek</a><br>
+        <a href="brinquedos.html">Brinquedos</a><br>
+        <a href="volei.html">Volei</a><br>
+        <a href="literatura.html">Literatura</a><br>
+        <a href="futebol.html">Futebol</a><br>
+       
+    </nav>
+
+    <section class="banner" id="inicio">
+        <h2>Sua paixão pelo vôlei começa aqui!</h2>
+        <p>Tudo o que você precisa para entrar em quadra!</p>
+        <a href="#produtos" class="botao-banner">Ver produtos</a>
+    </section>
+
+    <main>
+        <h2 class="titulo" id="produtos">Nossos Produtos</h2>
+
+        <section class="lista-produtos">
+
+            <article class="produto">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT9JUvIwoXi37SHFr-Xro4-0E-A8y8TmneHnaAWI2AvY_1y2D8orGUFij-5e8zUg_IFKxpMjDgU1EDPkhg1QBbLabT28BX4qG6zYUFARo33uTikpuMWpk3xVQ"
+                     alt="Camisa de vôlei""width="450" height="450"">
+                <span class="categoria">Camisa</span>
+                <h3>Camisa de vôlei</h3>
+                <p class="preco">R$ 279,99</p>
+                <button onclick="comprar('Camisa de vôlei')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://images.tcdn.com.br/img/img_prod/1303097/tenis_nike_precision_8_mid_basquete_masculino_98893_1_2a26f5c3c9a8bfd9bd5a1019a90385f9.png"
+                     alt="Tenis vôlei"" width="450" height="450"">
+                <span class="categoria">Calçado</span>
+                <h3>Tenis vôlei</h3>
+                <p class="preco">R$ 699,99 </p>
+                <button onclick="comprar('Tenis vôlei')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSGleamlqE32ziz-7KxGSFkrGeYyXe_61hMiyJBHm4ozEpDvj9Kq2tesAXXKUevn5mVt7_c0xlzIKRkOzMIiXfWs76fSV-UZgDNccE9gE8y1J7jG_mRulio2Q"
+                     alt="Bola de vôlei"" width="450" height="450""">
+                <span class="categoria">Bola</span>
+                <h3>Bola de vôlei</h3>
+                <p class="preco">R$ 693,99</p>
+                <button onclick="comprar('Bola de vôlei')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQPFC0-cQBvm-SoM3I0HFYwQzfnyP2OLbLbPfKXWtqQGJxZRc0EKNso7NXyO91NLYQq9RRDyzZmxmQQHryPbtuPIu5HKb7fEB0FkyAqW8GqoJZHjZrTlQ4zlA"
+                     alt="Luvas de goleiro""width="450" height="450""">
+                <span class="categoria">Goleiro</span>
+                <h3>Luva de Goleiro</h3>
+                <p class="preco">R$ 99,90</p>
+                <button onclick="comprar('Luva de Goleiro')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcShjaNk57WADyZLmaN8bcCAkwPXXUlKn5JQ-z7Gw2dzZyLcWC2GiT5F8xdqgp7b4TsQHKCx0Z3kK88sySUrmB1kEw-_EsbqkyM4uxr59GWuHHGIQtv_ix17OA"
+                     alt="Meião esportivo"""width="450" height="450""">
+                <span class="categoria">Acessório</span>
+                <h3>Meião Esportivo</h3>
+                <p class="preco">R$ 56,99</p>
+                <button onclick="comprar('Meião Esportivo')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSMIX4caj1jkn6JmE06V60LkxNT8EJRG6chKDzq5z9EFVCQGn5YY2ZdlJbtKcB0aWxXWIkAsU2LZ2py3uMgilQAFikJbZNuWsEligho0ynICLREpWqczr_Orw"
+                     alt="Caneleira de futebol"""width="450" height="450""">
+                <span class="categoria">Proteção</span>
+                <h3>Caneleira</h3>
+                <p class="preco">R$ 75,99</p>
+                <button onclick="comprar('Caneleira')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://imgcentauro-a.akamaihd.net/1024x1024/M18A4F31A1.jpg"
+                     alt="Mochila esportiva"""width="450" height="450""">
+                <span class="categoria">Bolsa</span>
+                <h3>Mochila Esportiva</h3>
+                <p class="preco">R$ 213,74</p>
+                <button onclick="comprar('Mochila Esportiva')">
+                    Comprar
+                </button>
+            </article>
+
+            <article class="produto">
+                <img src="https://m.media-amazon.com/images/I/71xAcQUQpxL._AC_UL320_.jpg"
+                     alt="Short de vôlei"""width="450" height="450""">
+                <span class="categoria">Roupa</span>
+                <h3>Short de  vôlei </h3>
+                <p class="preco">R$ 567,38</p>
+                <button onclick="comprar('Short de vôlei ')">
+                    Comprar
+                </button>
+            </article>
+
+        </section>
+
+        <section class="ofertas" id="ofertas">
+            <h2> Ofertas da Semana</h2>
+            <p>Confira nossos produtos e monte seu kit de jogador!</p>
+            <a href="#produtos">Aproveitar oferta</a>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <h3>FUTSTORE </h3>
+        <p>Sua paixão pelo vôlei começa aqui.</p>
+        <p>Contato: neudsonbarbosa6@futstore.com</p>
+        <p> 2026 InfoStore</p>
+    </footer>
+
+</body>
+</html>
+
+
